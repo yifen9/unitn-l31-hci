@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <path id="sq24" d="M0 0 q 5 -3 9 0 t 8 1 t 7 -1" fill="none"/>
+    <path id="sq40" d="M0 0 q 6 -3 11 0 t 10 1 t 10 -1 t 9 1" fill="none"/>
+    <path id="sq60" d="M0 0 q 6 -3 11 0 t 10 1 t 10 -1 t 10 1 t 10 -1 t 9 0" fill="none"/>
+    <path id="sq80" d="M0 0 q 7 -4 13 0 t 12 1 t 12 -1 t 12 1 t 12 -1 t 12 0 t 7 1" fill="none"/>
+    <path id="sq100" d="M0 0 q 7 -4 13 0 t 12 1 t 12 -1 t 13 1 t 12 -1 t 12 1 t 13 -1 t 13 0" fill="none"/>
+    <path id="sq120" d="M0 0 q 8 -4 14 0 t 13 1 t 13 -1 t 13 1 t 14 -1 t 13 1 t 13 -1 t 14 0 t 13 1" fill="none"/>
+    <path id="sq160" d="M0 0 q 8 -4 16 0 t 16 1 t 16 -1 t 16 1 t 16 -1 t 16 1 t 16 -1 t 16 0 t 16 1 t 16 -1" fill="none"/>
+    <path id="sq200" d="M0 0 q 10 -4 20 0 t 20 1 t 20 -1 t 20 1 t 20 -1 t 20 1 t 20 -1 t 20 0 t 20 1 t 20 -1" fill="none"/>
+    <path id="sq240" d="M0 0 q 10 -4 20 0 t 20 1 t 20 -1 t 20 1 t 20 -1 t 20 1 t 20 -1 t 20 0 t 20 1 t 20 -1 t 20 1 t 20 -1" fill="none"/>
+    <path id="sq300" d="M0 0 q 10 -4 20 0 t 20 1 t 20 -1 t 20 1 t 20 -1 t 20 1 t 20 -1 t 20 0 t 20 1 t 20 -1 t 20 1 t 20 -1 t 20 0 t 20 1 t 20 -1" fill="none"/>
+    <g id="logo64">
+      <path d="M2 1 L63 0 L64 44 L1 46 Z" fill="none"/>
+      <path d="M5 4 L60 42 M60 5 L6 42" fill="none" stroke="#888"/>
+    </g>
+    <g id="flag">
+      <path d="M0 1 L26 0 L26 16 L0 16 Z" fill="none"/>
+      <path d="M2 5 L24 5 M2 11 L24 10" fill="none" stroke="#888"/>
+    </g>
+    <g id="doc">
+      <path d="M0 2 L14 0 L20 6 L20 26 L0 26 Z M14 0 L14 6 L20 6 M4 12 L16 12 M4 18 L16 17" fill="none"/>
+    </g>
+    <path id="yrA" d="M0 0 l0 -10 M12 0 l0 -16 M24 0 l0 -8 M36 1 l0 -18 M48 0 l0 -12 M60 0 l0 -20" fill="none"/>
+    <path id="yrB" d="M0 0 l0 -14 M12 0 l0 -8 M24 -1 l0 -17 M36 0 l0 -10 M48 0 l0 -20 M60 0 l0 -15" fill="none"/>
+    <path id="funnel" d="M0 0 L12 0 L7.5 5 L7.5 11 L4.5 9 L4.5 5 Z" fill="none"/>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1000" fill="#ffffff"/>
+
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M62 54 a22 22 0 1 0 0.5 0"/>
+    <path d="M52 76 q5 -6 10 0 q5 6 10 0" stroke="#888"/>
+    <path d="M421 55 L859 54 L860 97 L420 98 Z"/>
+    <circle cx="447" cy="75" r="7"/>
+    <path d="M452 80 L459 87"/>
+    <use href="#sq300" xlink:href="#sq300" x="470" y="78"/>
+    <path d="M886 55 L1035 53 L1036 97 L884 98 Z"/>
+    <path d="M891 59 L1030 58 L1031 93 L890 94 Z" stroke="#888"/>
+    <path d="M903 87 v-11 h9 v11 M905 79 h5 M905 83 h5"/>
+    <path d="M1051 55 L1155 54 L1154 97 L1050 98 Z"/>
+    <path d="M1064 84 v-12 M1069 84 v-8 M1074 84 v-14"/>
+    <path d="M1171 54 L1286 55 L1285 98 L1170 97 Z"/>
+    <path d="M1182 76 l6 -7 6 7 -6 7 z"/>
+    <path d="M1316 55 L1358 54 L1359 97 L1315 98 Z"/>
+    <path d="M1329 68 h16 M1331 68 l1 -3 h12 l1 3 M1330 70 l2 20 h11 l2 -20 M1334 74 v12 M1340 74 v12"/>
+    <path d="M1375 54 L1469 55 L1470 98 L1374 97 Z"/>
+    <path d="M1392 66 v12 m-5 -6 l5 7 l5 -7 M1386 84 h13"/>
+    <path d="M1485 55 L1527 54 L1528 97 L1484 98 Z"/>
+    <circle cx="1506" cy="76" r="11"/>
+    <path d="M24 116 q 200 4 390 1 t 390 0 t 390 -1 t 382 1" stroke="#888"/>
+
+    <path d="M41 129 L1049 128 L1050 189 L40 190 Z"/>
+    <path d="M103 141 L189 140 L190 175 L102 176 Z"/>
+    <use href="#sq40" xlink:href="#sq40" x="112" y="160"/>
+    <path d="M164 155 l5 6 l5 -6"/>
+    <path d="M263 141 L499 140 L500 175 L262 176 Z"/>
+    <path d="M342 142 L341 175 M420 142 L421 175"/>
+    <path d="M266 144 L338 143 L339 172 L265 173 Z" stroke="#888"/>
+    <path d="M521 141 L651 140 L652 175 L520 176 Z"/>
+    <path d="M530 150 l3 6 6 3 -6 3 -3 6 -3 -6 -6 -3 6 -3 z"/>
+    <path d="M693 143 L723 142 L724 174 L692 175 Z"/>
+    <path d="M731 142 L761 143 L762 175 L730 174 Z"/>
+    <path d="M769 143 L925 142 L926 174 L768 175 Z"/>
+    <use href="#sq24" xlink:href="#sq24" x="824" y="158"/>
+    <use href="#sq40" xlink:href="#sq40" x="862" y="158"/>
+    <path d="M933 142 L963 143 L964 175 L932 174 Z"/>
+    <path d="M971 143 L1001 142 L1002 174 L970 175 Z"/>
+    <path d="M1036 149 A 12 12 0 1 0 1040 160"/>
+    <path d="M1036 149 l 4 -7 M1036 149 l -7 -3"/>
+
+    <path d="M42 202 L1048 200 L1050 928 L40 930 Z"/>
+    <path d="M44 205 L400 203" stroke="#888"/>
+    <use href="#funnel" xlink:href="#funnel" x="596" y="217"/>
+    <use href="#funnel" xlink:href="#funnel" x="748" y="217"/>
+    <path d="M44 242 q 125 3 250 1 t 250 0 t 250 -2 t 252 1"/>
+    <path d="M44 328 q 125 2 250 0 t 250 1 t 250 -2 t 252 1" stroke="#888"/>
+    <path d="M44 414 q 125 3 250 -1 t 250 1 t 250 0 t 252 -1" stroke="#888"/>
+    <path d="M44 500 q 125 2 250 1 t 250 -2 t 250 1 t 252 0" stroke="#888"/>
+    <path d="M44 586 q 125 3 250 0 t 250 1 t 250 -2 t 252 1" stroke="#888"/>
+    <path d="M44 672 q 125 2 250 -1 t 250 1 t 250 1 t 252 -1" stroke="#888"/>
+    <path d="M44 758 q 125 3 250 1 t 250 -1 t 250 0 t 252 -1" stroke="#888"/>
+    <path d="M44 844 q 125 2 250 0 t 250 1 t 250 -1 t 252 0" stroke="#888"/>
+
+    <path d="M47 247 L1043 246 L1044 324 L46 325 Z" stroke="#888"/>
+    <path d="M52 247 L52 324 M45 254 l7 -6 M45 266 l7 -6 M45 278 l7 -6 M45 290 l7 -6 M45 302 l7 -6 M45 314 l7 -6"/>
+    <path d="M1052 284 L1074 284 M1074 284 l-8 -5 M1074 284 l-8 5"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="262"/>
+    <use href="#sq240" xlink:href="#sq240" x="184" y="283"/>
+    <use href="#sq80" xlink:href="#sq80" x="552" y="283"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="277"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="285"/>
+    <path d="M782 292 L834 291 L834 300 L782 301 Z M790 300 l6 -8 M802 300 l6 -8 M814 300 l6 -8 M826 300 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="271"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="287"/>
+    <use href="#yrA" xlink:href="#yrA" x="968" y="296"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="348"/>
+    <use href="#sq300" xlink:href="#sq300" x="184" y="369"/>
+    <use href="#sq80" xlink:href="#sq80" x="552" y="369"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="363"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="371"/>
+    <use href="#sq40" xlink:href="#sq40" x="782" y="363"/>
+    <path d="M782 378 L831 377 L831 386 L782 387 Z M790 386 l6 -8 M802 386 l6 -8 M814 386 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="357"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="373"/>
+    <use href="#yrB" xlink:href="#yrB" x="968" y="382"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="434"/>
+    <use href="#sq240" xlink:href="#sq240" x="184" y="449"/>
+    <use href="#sq160" xlink:href="#sq160" x="184" y="468"/>
+    <use href="#sq60" xlink:href="#sq60" x="552" y="455"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="449"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="457"/>
+    <use href="#sq40" xlink:href="#sq40" x="782" y="449"/>
+    <path d="M782 464 L829 463 L829 472 L782 473 Z M790 472 l6 -8 M802 472 l6 -8 M814 472 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="443"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="459"/>
+    <use href="#yrA" xlink:href="#yrA" x="968" y="468"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="520"/>
+    <use href="#sq240" xlink:href="#sq240" x="184" y="541"/>
+    <use href="#sq80" xlink:href="#sq80" x="552" y="541"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="535"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="543"/>
+    <use href="#sq40" xlink:href="#sq40" x="782" y="535"/>
+    <path d="M782 550 L827 549 L827 558 L782 559 Z M790 558 l6 -8 M802 558 l6 -8 M814 558 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="529"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="545"/>
+    <use href="#yrB" xlink:href="#yrB" x="968" y="554"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="606"/>
+    <use href="#sq200" xlink:href="#sq200" x="184" y="621"/>
+    <use href="#sq120" xlink:href="#sq120" x="184" y="640"/>
+    <use href="#sq60" xlink:href="#sq60" x="552" y="621"/>
+    <use href="#sq60" xlink:href="#sq60" x="552" y="639"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="621"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="629"/>
+    <use href="#sq40" xlink:href="#sq40" x="782" y="621"/>
+    <path d="M782 636 L824 635 L824 644 L782 645 Z M790 644 l6 -8 M802 644 l6 -8 M814 644 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="615"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="631"/>
+    <use href="#yrA" xlink:href="#yrA" x="968" y="640"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="692"/>
+    <use href="#sq240" xlink:href="#sq240" x="184" y="713"/>
+    <use href="#sq80" xlink:href="#sq80" x="552" y="713"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="707"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="715"/>
+    <use href="#sq40" xlink:href="#sq40" x="782" y="707"/>
+    <path d="M782 722 L822 721 L822 730 L782 731 Z M790 730 l6 -8 M802 730 l6 -8 M814 730 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="701"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="717"/>
+    <use href="#yrB" xlink:href="#yrB" x="968" y="726"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="778"/>
+    <use href="#sq200" xlink:href="#sq200" x="184" y="799"/>
+    <use href="#sq80" xlink:href="#sq80" x="552" y="799"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="793"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="801"/>
+    <use href="#sq40" xlink:href="#sq40" x="782" y="793"/>
+    <path d="M782 808 L819 807 L819 816 L782 817 Z M790 816 l6 -8 M802 816 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="787"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="803"/>
+    <use href="#yrA" xlink:href="#yrA" x="968" y="812"/>
+
+    <use href="#logo64" xlink:href="#logo64" x="100" y="864"/>
+    <use href="#sq160" xlink:href="#sq160" x="184" y="885"/>
+    <use href="#sq80" xlink:href="#sq80" x="552" y="885"/>
+    <use href="#flag" xlink:href="#flag" x="676" y="879"/>
+    <use href="#sq24" xlink:href="#sq24" x="710" y="887"/>
+    <use href="#sq40" xlink:href="#sq40" x="782" y="879"/>
+    <path d="M782 894 L817 893 L817 902 L782 903 Z M790 902 l6 -8 M802 902 l6 -8"/>
+    <use href="#doc" xlink:href="#doc" x="884" y="873"/>
+    <use href="#sq24" xlink:href="#sq24" x="912" y="889"/>
+    <use href="#yrB" xlink:href="#yrB" x="968" y="898"/>
+
+    <path d="M1082 130 L1558 128 L1560 928 L1080 930 Z"/>
+    <path d="M1084 133 L1300 131" stroke="#888"/>
+    <use href="#flag" xlink:href="#flag" x="1102" y="150"/>
+    <use href="#sq40" xlink:href="#sq40" x="1140" y="162"/>
+    <use href="#sq80" xlink:href="#sq80" x="1450" y="162"/>
+    <path d="M1092 184 q 115 3 230 1 t 232 -1" stroke="#888"/>
+    <path d="M1192 205 L1449 203 L1450 287 L1190 288 Z"/>
+    <path d="M1196 208 L1444 284 M1445 207 L1196 285" stroke="#888"/>
+    <use href="#sq200" xlink:href="#sq200" x="1218" y="316"/>
+    <use href="#sq100" xlink:href="#sq100" x="1270" y="334"/>
+    <path d="M1113 357 L1323 355 L1324 397 L1112 398 Z"/>
+    <path d="M1337 356 L1547 357 L1546 398 L1336 397 Z"/>
+    <path d="M1462 368 h9 v9 M1471 368 l-11 11"/>
+    <path d="M1092 414 q 115 2 230 0 t 232 1" stroke="#888"/>
+    <use href="#sq40" xlink:href="#sq40" x="1166" y="468"/>
+    <use href="#sq40" xlink:href="#sq40" x="1306" y="468"/>
+    <use href="#sq40" xlink:href="#sq40" x="1446" y="468"/>
+    <g stroke="#888">
+      <use href="#sq24" xlink:href="#sq24" x="1168" y="492"/>
+      <use href="#sq24" xlink:href="#sq24" x="1308" y="492"/>
+      <use href="#sq24" xlink:href="#sq24" x="1448" y="492"/>
+    </g>
+    <path d="M1092 516 q 115 3 230 0 t 232 0" stroke="#888"/>
+    <path d="M1153 561 L1208 560 L1209 594 L1152 595 Z"/>
+    <path d="M1160 592 l14 -28 M1176 592 l14 -28" stroke="#888"/>
+    <path d="M1092 630 q 115 2 230 1 t 232 -1" stroke="#888"/>
+    <path d="M1141 668 L1139 788 M1136 788 L1498 790"/>
+    <path d="M1150 776 L1200 768 L1250 750 L1298 755 L1350 733 L1400 719 L1452 700 L1490 690"/>
+    <g fill="#2b2b2b" stroke="none">
+      <circle cx="1150" cy="776" r="3"/>
+      <circle cx="1200" cy="768" r="3"/>
+      <circle cx="1250" cy="750" r="3"/>
+      <circle cx="1298" cy="755" r="3"/>
+      <circle cx="1350" cy="733" r="3"/>
+      <circle cx="1400" cy="719" r="3"/>
+      <circle cx="1452" cy="700" r="3"/>
+      <circle cx="1490" cy="690" r="3"/>
+    </g>
+    <g stroke="#888">
+      <use href="#sq24" xlink:href="#sq24" x="1160" y="804"/>
+      <use href="#sq24" xlink:href="#sq24" x="1300" y="804"/>
+      <use href="#sq24" xlink:href="#sq24" x="1440" y="804"/>
+    </g>
+    <path d="M1128 862 q 30 3 56 1 t 56 0"/>
+    <path d="M1250 846 h10 v10 M1260 846 l-12 12"/>
+    <g stroke="#888">
+      <use href="#sq300" xlink:href="#sq300" x="1128" y="892"/>
+      <use href="#sq200" xlink:href="#sq200" x="1128" y="912"/>
+    </g>
+
+    <path d="M1085 32 C 1050 40 1010 44 985 52 M985 52 l 10 -3 M985 52 l 8 6"/>
+    <path d="M648 958 C 920 948 1064 840 1064 480 M1064 480 l -6 11 M1064 480 l 7 10"/>
+    <path d="M935 984 C 900 958 840 930 812 902 M812 902 l -2 11 M812 902 l 10 6"/>
+    <path d="M1310 952 C 1290 920 1240 890 1198 866 M1198 866 l 11 2 M1198 866 l 3 11"/>
+  </g>
+
+  <g font-family="Arial" fill="#2b2b2b">
+    <text x="92" y="83" font-size="20" font-weight="bold">OSR</text>
+    <text x="150" y="82" font-size="17">Open Scholar Ranking</text>
+    <text x="925" y="81" font-size="14">Institutions</text>
+    <text x="1084" y="81" font-size="14">Venues</text>
+    <text x="1202" y="81" font-size="14">Mobility</text>
+    <text x="1408" y="81" font-size="13">Export</text>
+    <text x="1503" y="81" font-size="13">i</text>
+
+    <text x="58" y="164" font-size="12">YEAR</text>
+    <text x="208" y="164" font-size="12">SCOPE</text>
+    <text x="274" y="163" font-size="12">Global</text>
+    <text x="352" y="163" font-size="12">Country</text>
+    <text x="432" y="163" font-size="12">City</text>
+    <text x="548" y="164" font-size="12">Saved views</text>
+    <text x="700" y="164" font-size="15">&#171;</text>
+    <text x="741" y="164" font-size="15">&#8249;</text>
+    <text x="778" y="163" font-size="11">PAGE</text>
+    <text x="850" y="163" font-size="12">/</text>
+    <text x="943" y="164" font-size="15">&#8250;</text>
+    <text x="978" y="164" font-size="15">&#187;</text>
+
+    <text x="58" y="228" font-size="12">#</text>
+    <text x="116" y="228" font-size="12">INSTITUTION</text>
+    <text x="556" y="228" font-size="12">CITY</text>
+    <text x="672" y="228" font-size="12">COUNTRY</text>
+    <text x="782" y="228" font-size="12">SCORE</text>
+    <text x="872" y="228" font-size="12">EVIDENCE</text>
+    <text x="968" y="228" font-size="12">YEARS</text>
+
+    <text x="60" y="290" font-size="14">1</text>
+    <text x="60" y="376" font-size="14">2</text>
+    <text x="60" y="462" font-size="14">3</text>
+    <text x="60" y="548" font-size="14">4</text>
+    <text x="60" y="634" font-size="14">5</text>
+    <text x="60" y="720" font-size="14">6</text>
+    <text x="60" y="806" font-size="14">7</text>
+    <text x="60" y="892" font-size="14">8</text>
+    <text x="782" y="285" font-size="13">0.96</text>
+
+    <text x="1218" y="382" font-size="13" text-anchor="middle">DETAILS</text>
+    <text x="1428" y="382" font-size="13" text-anchor="middle">ROR</text>
+    <text x="1180" y="442" font-size="11" text-anchor="middle">GLOBAL</text>
+    <text x="1320" y="442" font-size="11" text-anchor="middle">COUNTRY</text>
+    <text x="1460" y="442" font-size="11" text-anchor="middle">CITY</text>
+    <text x="1152" y="474" font-size="14">#</text>
+    <text x="1292" y="474" font-size="14">#</text>
+    <text x="1432" y="474" font-size="14">#</text>
+    <text x="1180" y="548" font-size="11" text-anchor="middle">TIER</text>
+    <text x="1360" y="548" font-size="11" text-anchor="middle">SCORE</text>
+    <text x="1180" y="583" font-size="15" text-anchor="middle">T1</text>
+    <text x="1360" y="594" font-size="26" text-anchor="middle">0.96</text>
+    <text x="1128" y="656" font-size="11">SCORE TREND</text>
+    <text x="1128" y="856" font-size="14">View Method</text>
+  </g>
+
+  <g font-family="Segoe Print, cursive" fill="#2b2b2b" font-size="15">
+    <text x="36" y="26" fill="#888" font-size="14">W3 &#183; Ranking page &#8212; lo-fi</text>
+    <text x="1058" y="24">same header on every board &#8212; filter state persists</text>
+    <text x="56" y="966">clicking a row opens the detail pane &#8212; selection is shared, no page change</text>
+    <text x="500" y="994">score bars are placeholders &#8212; one illustrative value only</text>
+    <text x="1094" y="966">sparkline reuses the YEAR series;</text>
+    <text x="1094" y="988">&#8220;View Method&#8221; links to methodology (W4)</text>
+  </g>
+</svg>

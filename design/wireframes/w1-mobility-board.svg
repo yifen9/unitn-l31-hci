@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <path id="sq40" d="M0,0 q5,-5 10,0 t10,0 t10,0 t10,0" fill="none"/>
+    <path id="sq70" d="M0,0 q5,-5 10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0" fill="none"/>
+    <path id="sq110" d="M0,0 q5,-5 10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0" fill="none"/>
+    <path id="caret" d="M0,0 l7,8 l7,-8" fill="none"/>
+    <g id="flag">
+      <path d="M0,1 L26,0 L27,16 L1,17 Z" fill="none"/>
+      <path d="M5,13 L13,3 M13,15 L22,5" fill="none" stroke-width="1.4"/>
+    </g>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#ffffff"/>
+
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M30,21 L88,19 L90,62 L31,64 Z"/>
+    <path d="M58,30 a11,11 0 1 0 1,0"/>
+    <circle cx="59" cy="41" r="2" fill="#2b2b2b" stroke="none"/>
+
+    <path d="M938,26 L1068,24 Q1078,24 1077,42 Q1077,60 1066,60 L940,62 Q931,62 932,44 Q931,28 938,26 Z"/>
+    <path d="M956,34 l12,-1 l1,19 l-12,1 z M959,39 h7 M959,44 h7 M959,49 h7" stroke-width="1.6"/>
+
+    <path d="M1090,26 L1186,24 Q1195,24 1194,42 Q1194,60 1184,60 L1092,62 Q1083,62 1084,44 Q1083,28 1090,26 Z"/>
+    <path d="M1106,38 v15 M1112,33 v20 M1118,40 v13" stroke-width="1.6"/>
+
+    <path d="M1210,26 L1312,24 Q1321,24 1320,42 Q1320,60 1310,60 L1212,62 Q1203,62 1204,44 Q1203,28 1210,26 Z"/>
+    <path d="M1207,29 L1314,27 Q1317,42 1313,57 L1209,59 Q1206,43 1207,29 Z" stroke-width="1.2"/>
+    <path d="M1222,37 l7,-4 l7,4 l7,-4 l1,15 l-7,4 l-7,-4 l-7,4 z" stroke-width="1.6"/>
+
+    <path d="M1400,26 L1447,24 L1449,62 L1401,64 Z"/>
+    <path d="M1412,36 h24 M1421,33 l6,0 M1415,40 L1418,58 L1430,58 L1433,40 M1422,44 v10 M1427,44 v10" stroke-width="1.6"/>
+
+    <path d="M1460,26 L1507,24 L1509,62 L1461,64 Z"/>
+    <path d="M1484,32 v14 M1484,46 l-6,-7 M1484,46 l6,-7 M1472,52 v6 h24 v-6" stroke-width="1.6"/>
+
+    <path d="M1520,26 L1567,24 L1569,62 L1521,64 Z"/>
+    <path d="M1544,32 a12,12 0 1 0 1,0 M1544,45 v8" stroke-width="1.6"/>
+    <circle cx="1544" cy="39" r="1.6" fill="#2b2b2b" stroke="none"/>
+
+    <path d="M34,95 L1564,93 M1561,90 L1559,153 M1566,151 L36,153 M41,156 L39,92"/>
+
+    <path d="M100,105 L190,103 L192,142 L102,144 Z"/>
+    <use xlink:href="#sq40" href="#sq40" x="112" y="126"/>
+    <use xlink:href="#caret" href="#caret" x="168" y="118"/>
+
+    <path d="M258,105 L336,103 L338,142 L260,144 Z"/>
+    <use xlink:href="#sq40" href="#sq40" x="266" y="126"/>
+    <use xlink:href="#caret" href="#caret" x="310" y="118"/>
+
+    <path d="M406,105 L484,103 L486,142 L408,144 Z"/>
+    <use xlink:href="#sq40" href="#sq40" x="416" y="126"/>
+    <use xlink:href="#caret" href="#caret" x="458" y="118"/>
+
+    <path d="M560,105 L602,103 L604,142 L562,144 Z"/>
+    <path d="M578,113 l-11,10 l11,10 M592,113 l-11,10 l11,10"/>
+    <path d="M610,105 L652,103 L654,142 L612,144 Z"/>
+    <path d="M638,113 l-11,10 l11,10"/>
+    <path d="M660,105 L806,103 L808,142 L662,144 Z"/>
+    <path d="M814,105 L856,103 L858,142 L816,144 Z"/>
+    <path d="M828,113 l11,10 l-11,10"/>
+    <path d="M864,105 L906,103 L908,142 L866,144 Z"/>
+    <path d="M872,113 l11,10 l-11,10 M886,113 l11,10 l-11,10"/>
+
+    <path d="M1045,105 L1150,103 L1152,142 L1047,144 Z"/>
+    <use xlink:href="#sq40" href="#sq40" x="1056" y="126"/>
+    <use xlink:href="#caret" href="#caret" x="1122" y="118"/>
+
+    <path d="M1170,106 L1448,104 L1450,142 L1172,144 Z"/>
+    <path d="M1262,106 L1261,142 M1322,105 L1323,143"/>
+    <path d="M1180,138 L1254,137" stroke-width="2.6"/>
+
+    <path d="M1470,106 L1522,104 L1524,142 L1472,144 Z"/>
+    <path d="M1505,117 A 11,11 0 1 1 1487,118 M1505,117 l3,-8 M1505,117 l-8,-3"/>
+
+    <path d="M34,171 L936,169 M931,165 L933,921 M938,918 L36,920 M41,924 L39,167"/>
+
+    <path d="M58,188 Q52,204 60,220 Q120,224 174,220 Q182,204 174,186 Q116,182 58,188 Z"/>
+    <path d="M78,196 a9,9 0 1 0 1,0 M78,196 q5,9 0,18 M69,205 h18" stroke-width="1.6"/>
+
+    <path d="M768,188 L858,186 L860,220 L770,222 Z"/>
+    <use xlink:href="#sq40" href="#sq40" x="780" y="206"/>
+    <path d="M846,198 a8,8 0 1 1 -12,-2 M834,196 l-1,7 l7,0" stroke-width="1.6"/>
+
+    <path d="M870,188 L916,186 L918,220 L872,222 Z"/>
+    <path d="M882,196 h22 l-8,10 v10 l-6,-4 v-6 z" stroke-width="1.6"/>
+
+    <path d="M148,415 L168,368 L210,340 L262,328 L318,336 L344,360 L332,392"/>
+    <path d="M334,388 L352,420 L336,458 L300,482 L262,476 L240,502 L208,490 L168,502 L148,466 L149,412"/>
+
+    <path d="M304,622 L342,606 L378,626 L388,668 L372,716 L352,776 L330,822 L314,804 L306,752 L292,700 L290,654 L302,626"/>
+
+    <path d="M492,352 L520,326 L560,312 L610,318 L660,306 L716,314 L768,332 L820,330 L862,352"/>
+    <path d="M860,348 L876,388 L848,414 L858,448 L826,470 L790,458 L772,492 L736,510 L706,486 L668,502 L640,470 L600,462 L574,430 L536,428 L508,398 L490,374 L493,348"/>
+
+    <path d="M772,712 L806,694 L848,700 L878,724 L884,758 L862,788 L822,798 L786,782 L766,748 L770,716"/>
+
+    <path d="M944,171 L1562,169 M1558,165 L1560,921 M1564,918 L946,920 M951,924 L949,167"/>
+
+    <path d="M1030,227 L1182,225 M1032,231 L1180,229"/>
+
+    <path d="M1524,248 L1540,247 L1541,262 L1525,263 Z M1528,255 l4,5 l7,-10"/>
+
+    <use xlink:href="#flag" href="#flag" x="1002" y="302"/>
+    <use xlink:href="#sq40" href="#sq40" x="1040" y="310"/>
+    <use xlink:href="#sq110" href="#sq110" x="1002" y="344"/>
+    <use xlink:href="#sq40" href="#sq40" x="1400" y="328"/>
+    <use xlink:href="#sq70" href="#sq70" x="1446" y="328"/>
+
+    <use xlink:href="#flag" href="#flag" x="1002" y="409"/>
+    <use xlink:href="#sq40" href="#sq40" x="1040" y="417"/>
+    <use xlink:href="#sq110" href="#sq110" x="1002" y="451"/>
+    <use xlink:href="#sq40" href="#sq40" x="1290" y="435"/>
+    <use xlink:href="#sq40" href="#sq40" x="1400" y="435"/>
+    <use xlink:href="#sq70" href="#sq70" x="1446" y="435"/>
+
+    <use xlink:href="#flag" href="#flag" x="1002" y="516"/>
+    <use xlink:href="#sq40" href="#sq40" x="1040" y="524"/>
+    <use xlink:href="#sq110" href="#sq110" x="1002" y="558"/>
+    <use xlink:href="#sq40" href="#sq40" x="1290" y="542"/>
+    <use xlink:href="#sq40" href="#sq40" x="1400" y="542"/>
+    <use xlink:href="#sq70" href="#sq70" x="1446" y="542"/>
+
+    <use xlink:href="#flag" href="#flag" x="1002" y="623"/>
+    <use xlink:href="#sq40" href="#sq40" x="1040" y="631"/>
+    <use xlink:href="#sq110" href="#sq110" x="1002" y="665"/>
+    <use xlink:href="#sq40" href="#sq40" x="1290" y="649"/>
+    <use xlink:href="#sq40" href="#sq40" x="1400" y="649"/>
+    <use xlink:href="#sq70" href="#sq70" x="1446" y="649"/>
+
+    <use xlink:href="#flag" href="#flag" x="1002" y="730"/>
+    <use xlink:href="#sq40" href="#sq40" x="1040" y="738"/>
+    <use xlink:href="#sq110" href="#sq110" x="1002" y="772"/>
+    <use xlink:href="#sq40" href="#sq40" x="1290" y="756"/>
+    <use xlink:href="#sq40" href="#sq40" x="1400" y="756"/>
+    <use xlink:href="#sq70" href="#sq70" x="1446" y="756"/>
+
+    <use xlink:href="#flag" href="#flag" x="1002" y="837"/>
+    <use xlink:href="#sq40" href="#sq40" x="1040" y="845"/>
+    <use xlink:href="#sq110" href="#sq110" x="1002" y="879"/>
+    <use xlink:href="#sq40" href="#sq40" x="1290" y="863"/>
+    <use xlink:href="#sq40" href="#sq40" x="1400" y="863"/>
+    <use xlink:href="#sq70" href="#sq70" x="1446" y="863"/>
+  </g>
+
+  <g stroke="#888" stroke-width="1.5" fill="none" stroke-linecap="round">
+    <path d="M20,79 q380,4 760,1 t800,1"/>
+
+    <path d="M1180,110 L1206,140 M1200,108 L1228,140 M1222,108 L1250,138" stroke-width="1"/>
+
+    <path d="M180,382 L226,444 M206,364 L258,436 M236,352 L292,428 M268,346 L322,412 M300,352 L336,396 M186,438 L224,478"/>
+    <path d="M312,648 L364,706 M306,690 L352,742 M316,730 L346,772 M322,772 L338,800"/>
+    <path d="M520,344 L560,392 M556,330 L604,386 M596,326 L648,384 M638,322 L682,372 M682,322 L724,372 M728,330 L760,366 M776,340 L826,396 M818,352 L858,398 M560,404 L596,444 M700,440 L740,484"/>
+    <path d="M790,720 L830,770 M812,708 L856,760 M836,708 L872,750"/>
+
+    <path d="M950,230 q160,3 310,0 t300,2"/>
+    <path d="M952,276 q200,3 400,0 t208,2"/>
+    <path d="M954,382 q150,4 300,0 t304,2"/>
+    <path d="M954,489 q150,3 300,0 t304,2"/>
+    <path d="M954,596 q150,4 300,0 t304,2"/>
+    <path d="M954,703 q150,3 300,0 t304,2"/>
+    <path d="M954,810 q150,4 300,0 t304,2"/>
+
+    <path d="M802,676 C 960,600 1180,430 1310,348" stroke-dasharray="7 8" stroke-width="2"/>
+    <path d="M1310,348 l-13,1 M1310,348 l-6,12" stroke-width="2"/>
+  </g>
+
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M196,434 L288,431 L290,469 L198,471 Z M242,471 l8,13" fill="#ffffff"/>
+    <use xlink:href="#flag" href="#flag" x="206" y="440"/>
+
+    <path d="M688,370 L772,367 L774,403 L690,405 Z M730,405 l6,12" fill="#ffffff"/>
+    <use xlink:href="#flag" href="#flag" x="698" y="376"/>
+    <use xlink:href="#sq40" href="#sq40" x="730" y="390"/>
+
+    <path d="M320,690 L404,687 L406,723 L322,725 Z M362,725 l8,12" fill="#ffffff"/>
+    <use xlink:href="#flag" href="#flag" x="330" y="696"/>
+    <use xlink:href="#sq40" href="#sq40" x="362" y="710"/>
+
+    <path d="M706,664 L800,661 L802,699 L708,701 Z M772,701 L800,724" fill="#ffffff"/>
+    <use xlink:href="#flag" href="#flag" x="716" y="670"/>
+  </g>
+
+  <g stroke="#2b2b2b" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <path d="M148,934 C 44,880 22,500 44,164 M44,164 l-7,11 M44,164 l9,9"/>
+    <path d="M756,930 C 762,862 760,776 753,712 M753,712 l-9,7 M753,712 l3,12"/>
+    <path d="M1428,932 C 1560,890 1594,600 1584,400 C 1578,320 1560,286 1542,270 M1542,270 l1,12 M1542,270 l11,4"/>
+    <path d="M398,254 C 640,232 880,238 934,196 C 942,168 1000,158 1232,157 M1232,157 l-12,-5 M1232,157 l-12,7"/>
+  </g>
+
+  <g fill="#2b2b2b" stroke="none" font-family="Arial">
+    <text x="106" y="51" font-size="26" font-weight="bold">Open Scholar Ranking</text>
+    <text x="976" y="49" font-size="15">Institutions</text>
+    <text x="1128" y="49" font-size="15">Venues</text>
+    <text x="1248" y="49" font-size="15" font-weight="bold">Mobility</text>
+
+    <text x="56" y="129" font-size="13" font-weight="bold">YEAR</text>
+    <text x="208" y="129" font-size="13" font-weight="bold">ROWS</text>
+    <text x="358" y="129" font-size="13" font-weight="bold">JUMP</text>
+    <text x="676" y="129" font-size="13" font-weight="bold">PAGE</text>
+    <text x="738" y="129" font-size="13">1  /  4</text>
+    <text x="932" y="129" font-size="13" font-weight="bold">NATIONALITY</text>
+    <text x="1216" y="129" font-size="13" font-weight="bold" text-anchor="middle">Country</text>
+    <text x="1292" y="129" font-size="13" text-anchor="middle" fill="#888">City</text>
+    <text x="1385" y="129" font-size="13" text-anchor="middle" fill="#888">Institution</text>
+
+    <text x="94" y="209" font-size="14">Countries</text>
+
+    <text x="282" y="459" font-size="14" font-weight="bold" text-anchor="end">61.56%</text>
+    <text x="794" y="689" font-size="14" font-weight="bold" text-anchor="end">62.65%</text>
+
+    <text x="1105" y="209" font-size="16" font-weight="bold" text-anchor="middle">Destination</text>
+    <text x="1405" y="209" font-size="16" text-anchor="middle" fill="#888">Institution</text>
+
+    <text x="974" y="261" font-size="12" font-weight="bold" text-anchor="middle">#</text>
+    <text x="1000" y="261" font-size="12" font-weight="bold" letter-spacing="1">DESTINATION</text>
+    <text x="1330" y="261" font-size="12" font-weight="bold" text-anchor="end" letter-spacing="1">STAY</text>
+    <text x="1442" y="261" font-size="12" font-weight="bold" text-anchor="end" letter-spacing="1">NO RETURN</text>
+    <text x="1516" y="261" font-size="12" font-weight="bold" text-anchor="end" letter-spacing="1">ARRIVAL</text>
+
+    <text x="974" y="334" font-size="15" text-anchor="middle">1</text>
+    <text x="974" y="441" font-size="15" text-anchor="middle">2</text>
+    <text x="974" y="548" font-size="15" text-anchor="middle">3</text>
+    <text x="974" y="655" font-size="15" text-anchor="middle">4</text>
+    <text x="974" y="762" font-size="15" text-anchor="middle">5</text>
+    <text x="974" y="869" font-size="15" text-anchor="middle">6</text>
+
+    <text x="1330" y="334" font-size="15" font-weight="bold" text-anchor="end">62.65%</text>
+  </g>
+
+  <g fill="#2b2b2b" stroke="none" font-family="Segoe Print, cursive" font-size="18">
+    <text x="60" y="262">one toggle re-scopes BOTH panels</text>
+    <text x="60" y="956">map and board always share filter state</text>
+    <text x="565" y="956">same 62.65% here and in row 1</text>
+    <text x="1120" y="956">checkbox picks the ranking metric</text>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+\section{PACT analysis and requirements}
+\label{sec:pact}
+
+This section applies PACT \cite{benyon} to OSR and closes with the requirements the analysis produced.
+
+\subsection{Data gathering}
+
+I gathered evidence from three sources of increasing distance from myself.
+
+The first source is autobiographical. I am the primary user: OSR began as my own high-school wish to click around a map and instantly see the odds of settling somewhere, and I built it while comparing my own PhD destinations. Needfinding by introspection is cheap and deep, but it is systematically biased towards the author's own context: desktop hardware, English fluency, comfort with statistical jargon. I treat it as one voice among several and use the other two sources to expose what it cannot see.
+
+The second source is community feedback at scale. I launched OSR on rednote (xiaohongshu) and Reddit on 11 June 2026. The rednote post was taken down and re-uploaded six times through 21 June, and I archived the comment sections of four uploads, 431 comments in total. I coded the corpus inductively as a single coder, allowing multiple codes per comment and merging near-duplicate themes across archives, which yielded 17 themes over 426 code assignments. Every quote used in this report is reproduced verbatim from the archives; usernames are anonymised (User A, User B, \ldots) and the English renderings are my translations of the Chinese originals. All comments were public. Like counts give a rough salience weighting. The top comment in the geographic-merging theme, ``A really interesting project, but the merging of multiple data sources clearly has problems'' (459 likes), outdrew every praise comment. Two limitations follow from the method: a single coder means no inter-rater reliability check, and the corpus is rednote-only, so the English-speaking Reddit audience is not represented. Table~\ref{tab:themes} lists seven of the eight substantive usability, data-quality, and methodology themes. The eighth, cross-platform findability ($n=6$), concerns locating the companion Reddit post and feeds NFR6 in the full requirements table. The substantive themes are a minority by volume (131 comments are bare friend-tags and 94 pure praise) but they carry nearly all of the actionable signal.
+
+The third source is three semi-structured interviews with Chinese-speaking students, two of them computer-science undergraduates studying abroad (the United States and the Netherlands) and one considering a move, recruited from my own network and run on 11--12 July 2026 as the opening segment of the combined study sessions. Every session is screen- and audio-recorded with signed consent and auto-transcribed with timestamps (protocol, recordings, and transcripts in Drive \texttt{04 Data gathering}). They triangulate the corpus rather than replace it, and three results carry. All three named past students' actual outcomes as the data they could never find. P02 gave the sharpest account of the cost. Verifying information is what eats the time, not finding it. Trust rides on provenance. P03 named ORCID unprompted as a source he would believe. The three span the preference axis the comments argue over (P01 prestige-first, P03 an even split, P02 retention-first). P02 independently reframed Arrival as a credibility check, reading small mass as weak evidence, which validates FR8 from the demand side. Nobody asked for side-by-side comparison, so FR12 stays designer-motivated.
+
+\begin{table}[t]
+\centering
+\caption{Seven of the eight substantive usability, data-quality, and methodology themes from the coded launch feedback (431 comments, 17 themes); the eighth, cross-platform findability ($n=6$), is discussed in the text. The remaining nine themes cover feature requests, use cases, emotion, and distribution behaviour. Quotes are verbatim public comments. Translations from Chinese are mine.}
+\label{tab:themes}
+\small
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.26\linewidth} l r X}
+\toprule
+Theme & Kind & $n$ & Example comment (translated) \\
+\midrule
+Mobile experience and access problems & usability & 7 & ``Opening it on my phone, it seems the map can't be zoomed?'' \\
+In-app legibility and hidden-by-default data & usability & 6 & ``Why is there no Hitotsubashi data under Tokyo?'' \\
+Plausibility and credibility doubts & data quality & 14 & ``Antarctica supposedly still has 38\% [staying].'' \\
+Geographic merging and localisation errors & data quality & 5 & ``To handle localized data correctly you really have to adapt it country by country. Hard to imagine that workload.'' \\
+Data provenance questions & data quality & 5 & ``Where is the data from? It feels like very few people compile statistics on this.'' \\
+Metric comprehension and interpretation & methodology & 14 & ``No return means completely not going back to develop one's career at home, right? Short trips home to visit family shouldn't count?'' \\
+ORCID-as-migration-proxy validity & methodology & 4 & ``This has nothing to do with immigration. ORCID only shows that a person went to some country to study, registered an account, and published papers.'' \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{PACT summary}
+
+\textbf{People.} Four groups emerged from the coded feedback. Prospective PhD and master's applicants are the core: early twenties, browsing anonymously, feeding the output into a life decision. Current students and graduates abroad act as credibility auditors, testing values against lived experience. Working professionals planning an exit sit outside the ORCID population entirely and will misread academic rates as general migration odds unless told otherwise. A small set of methodologically skilled readers writes the in-thread verdicts that shape everyone else's trust. Statistics literacy spans the full range: the same launch drew ``I can't really understand it'' and a correct informal statement of the right-censoring problem. The audience is Chinese-speaking and reads the English-only metric names through translation. Emotional stakes are high: the subject is emigration from China, 29 comments show censorship anxiety, and credibility failures read as motivated rather than accidental. The canvas map has no text layer for screen readers, dense small-type boards strain low-vision users on phones, and some users sit behind the Great Firewall with uncertain connectivity. One asked whether a VPN is required.
+
+\textbf{Activities.} Four activities recur. \emph{Shortlisting} is exploratory, infrequent, and high-stakes: browsing country, city, and institution boards for one origin nationality, discounting small-sample destinations, which requires magnitude next to every rate. \emph{Offer comparison} is a directed lookup of two or three named institutions. It broke at launch when the default flow-threshold filter plus pagination hid Hitotsubashi and a user read the absence as missing data. \emph{Methodology checking} precedes trust: users crowd-tested outputs and challenged Antarctica's 38\% Stay in the comments, not on the site. \emph{Screenshot sharing} dominates by volume: 131 comments are bare friend-tags, and what circulates is an image rather than a link, so every view must explain itself as a static picture.
+
+\textbf{Contexts.} First contact almost always happens on a phone inside the rednote in-app WebView, seconds after tapping a post. The launched site assumed a large screen and a pointer, so it performed worst in the context where it was discovered. The takedown cycle compounds this. The post was the only navigation path most users had, and it died six times, taking with it every explanation and link that lived only in the post. Views must therefore survive as screenshots, and the site must carry its own provenance, mirrors, and metric glosses. Consumption is individual but validation is communal: metric interpretation happened in comment threads, including a platform AI bot restating the metrics, so whatever the site fails to explain gets explained, sometimes wrongly, by the crowd. The deliberate desktop session is real, but it is the return visit.
+
+\textbf{Technologies.} OSR is a single-page application over precomputed aggregates: no server queries at view time, but the full payload and render cost land on mid-range phones over cellular, where the ``site shows no data'' reports originated. The map is canvas-rendered, with pointer-centric zoom and no DOM semantics for screen readers. Boards and trajectory flows reveal information on hover, which does not exist on touch. Filter defaults are invisible in the output, so an entity's absence is ambiguous among filtered, paginated, and genuinely missing. The de facto rendering targets are the WebView and the screenshot. A screenshot strips tooltips, active filters, and legends unless they are drawn into the view itself.
+
+\subsection{Requirements}
+
+From these sources plus the benchmarking gap I derived 17 functional and 7 non-functional requirements, prioritised with MoSCoW and scoped to the current iteration. Table~\ref{tab:requirements} shows the 13 rows that drive what follows. The full 24-row tables (FR1--FR17, NFR1--NFR7) are in Drive \texttt{06 Design library} and preserve the same links. Every requirement is traceable: its source column names the comment theme (with count), author post, PACT implication, or benchmark finding it derives from. Three Could-level rows rest on plausible but unverified demand and are marked interviews pending. They enter the interview script, not the build queue. One Won't row is deliberate. Extending coverage beyond PhD-track researchers is the most-requested expansion but infeasible from ORCID data alone. Statuses record the launched site of June 2026, the baseline the iterations then addressed: the Must-level metric and access requirements held by construction, while the open credibility rows (FR6, FR8) and the mobile requirement (NFR2) set the agenda for the design iterations reported next.
+
+\begin{table}[t]
+\centering
+\caption{13 of the 24 requirements (17 functional, 7 non-functional); the full tables are in Drive \texttt{06 Design library}. Sources name the evidence each row traces to. Theme names carry their comment counts. IP = interviews pending. Status reflects the launched site of June 2026, the pre-iteration baseline.}
+\label{tab:requirements}
+\small
+\begin{tabularx}{\linewidth}{l X l >{\raggedright\arraybackslash}p{0.22\linewidth} l}
+\toprule
+ID & Requirement & MoSCoW & Source & Status \\
+\midrule
+FR1 & Rank destinations by observed scholar migration, conditioned on origin nationality, at country, city, and institution level & Must & Author motivation; benchmarking gap & Met \\
+FR3 & Exclude right-censored final stops from Stay and No-return denominators & Must & Author metric definitions & Met \\
+FR5 & Methodology page defining every metric, the population scope, and known biases & Must & Metric comprehension (14); proxy validity (4) & Partial \\
+FR6 & One-line metric definition at the point of use, beyond the /info page & Should & Legibility (6) & Open \\
+FR8 & Show sample size or a small-sample flag per destination & Should & Plausibility doubts (14) & Open \\
+FR9 & Visibly indicate when default filters hide entries, with a one-tap override & Should & Legibility (Hitotsubashi case) & Partial \\
+FR11 & Render every view screenshot-self-sufficient: title, labels, nationality, source URL & Should & PACT: sharing as distribution & Open \\
+FR12 & Side-by-side comparison of two candidate destinations & Could (IP) & Author motivation & Open \\
+FR15 & Chinese-language UI option & Could (IP) & Expansion requests (11) & Open \\
+FR17 & Coverage beyond PhD-track researchers & Won't & Expansion requests (11); infeasible from ORCID alone & Open \\
+NFR1 & All views free, no login or account & Must & Benchmarking: 1point3acres paywall & Met \\
+NFR2 & Fully usable on small touchscreens: zoomable map, legible boards, loads on mobile networks & Must & Mobile problems (7) & Open \\
+NFR4 & Expose only anonymised aggregates; no individual trajectory identifiable & Must & Benchmarking: LinkedIn trade-off & Met \\
+\bottomrule
+\end{tabularx}
+\end{table}

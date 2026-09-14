@@ -1,0 +1,43 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\setlist{nosep,leftmargin=*}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=RoyalBlue,citecolor=black]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,skip=4pt}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+\usepackage[style=numeric,sorting=none]{biblatex}
+\addbibresource{refs.bib}
+
+\setcounter{tocdepth}{2}
+
+\title{\vspace{-1.9cm}\includegraphics[width=0.24\linewidth]{figures/osr-logo.png}\\[6pt]\LARGE Open Scholar Ranking\\\large Design and evaluation of a data-driven tool for academic mobility decisions}
+\author{LI Yifeng \\ 256607 \\ Bachelor's Degree in Computer Science \\ \href{mailto:yifeng.li@studenti.unitn.it}{yifeng.li@studenti.unitn.it}}
+\date{Human-Computer Interaction, University of Trento \\ \today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\input{sections/01-summary}
+\input{sections/02-benchmarking}
+\input{sections/03-pact}
+\input{sections/04-iteration1}
+\input{sections/05-iteration2}
+\input{sections/06-conclusions}
+
+\newpage
+\printbibliography
+
+\end{document}

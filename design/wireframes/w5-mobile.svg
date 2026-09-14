@@ -1,0 +1,170 @@
+<svg width="720" height="900" viewBox="0 0 720 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="flag">
+      <path d="M 0 1 L 24 0 L 23 14 L 1 15 Z" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+      <path d="M 3 12 L 12 2 M 9 13 L 19 2 M 15 13 L 21 6" fill="none" stroke="#888" stroke-width="1"/>
+    </g>
+  </defs>
+
+  <rect width="720" height="900" fill="white"/>
+
+  <text x="14" y="20" font-family="Segoe Print, cursive" font-size="14" fill="#2b2b2b">W5 - Mobile mobility layout (400 x 844)</text>
+
+  <!-- phone frame 400x844 -->
+  <path d="M 186 30 L 534 28 Q 559 29 560 54 L 559 846 Q 560 871 535 870 L 186 872 Q 161 871 162 847 L 160 54 Q 161 30 186 30 Z" fill="white" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- header: logo + hamburger -->
+  <circle cx="196" cy="66" r="13" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <circle cx="196" cy="68" r="4.5" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 185 55 q 9 -8 20 -3" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <text x="214" y="76" font-family="Segoe Print, cursive" font-size="24" fill="#2b2b2b">SR</text>
+  <path d="M 502 48 L 542 47 L 543 88 L 501 89 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 511 60 L 533 59 M 511 68 L 533 68 M 511 76 L 533 77" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 162 102 q 50 3 100 0 t 100 0 t 100 0 t 98 0" fill="none" stroke="#888" stroke-width="1.5"/>
+
+  <!-- filter card -->
+  <path d="M 182 118 L 538 116 Q 548 117 548 128 L 549 300 Q 548 312 537 311 L 182 312 Q 172 311 173 300 L 172 128 Q 172 118 182 118 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+
+  <!-- filter row 1: YEAR + ROWS -->
+  <text x="184" y="152" font-family="Arial" font-size="12" font-weight="bold" fill="#2b2b2b">YEAR</text>
+  <path d="M 230 132 L 314 131 L 315 169 L 229 170 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 240 154 q 5 -4 10 0 t 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 293 147 l 7 8 l 7 -8" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <text x="330" y="152" font-family="Arial" font-size="12" font-weight="bold" fill="#2b2b2b">ROWS</text>
+  <path d="M 380 132 L 466 131 L 467 169 L 379 170 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 390 154 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 443 147 l 7 8 l 7 -8" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- filter row 2: pager -->
+  <path d="M 184 186 L 226 185 L 227 223 L 183 224 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 203 196 l -7 8 l 7 8 M 213 196 l -7 8 l 7 8" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 234 186 L 276 185 L 277 223 L 233 224 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 259 196 l -7 8 l 7 8" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 284 186 L 436 185 L 437 223 L 283 224 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="294" y="210" font-family="Arial" font-size="11" fill="#2b2b2b">PAGE</text>
+  <path d="M 356 206 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <text x="388" y="211" font-family="Arial" font-size="12" fill="#2b2b2b">/</text>
+  <path d="M 400 206 q 5 -4 10 0 t 10 0" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 444 186 L 486 185 L 487 223 L 443 224 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 460 196 l 7 8 l -7 8" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 494 186 L 536 185 L 537 223 L 493 224 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 508 196 l 7 8 l -7 8 M 517 196 l 7 8 l -7 8" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- filter row 3: nationality + granularity + reset -->
+  <path d="M 184 246 L 280 245 L 281 287 L 183 288 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 194 268 q 5 -4 10 0 t 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 254 262 l 7 8 l 7 -8" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 292 246 L 474 245 L 475 287 L 291 288 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 354 247 L 353 286 M 400 246 L 401 287" fill="none" stroke="#888" stroke-width="1.5"/>
+  <text x="298" y="271" font-family="Arial" font-size="11" fill="#2b2b2b">Country</text>
+  <text x="364" y="271" font-family="Arial" font-size="11" fill="#888">City</text>
+  <text x="406" y="271" font-family="Arial" font-size="10" fill="#888">Institution</text>
+  <path d="M 296 281 q 25 3 52 1" fill="none" stroke="#2b2b2b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 486 246 L 534 245 L 535 287 L 485 288 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 518 259 A 9 9 0 1 0 520 272" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 518 259 l 6 -4 M 518 259 l 1 7" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- map card -->
+  <path d="M 182 328 L 538 326 Q 548 327 548 338 L 549 628 Q 548 640 537 639 L 182 640 Q 172 639 173 628 L 172 338 Q 172 328 182 328 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 194 340 L 276 339 Q 286 340 286 350 L 287 362 Q 286 372 276 371 L 194 372 Q 184 371 185 362 L 184 350 Q 185 340 194 340 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <circle cx="200" cy="356" r="8" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 192 356 L 208 356 M 200 348 q 5 8 0 16 M 200 348 q -5 8 0 16" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <text x="214" y="360" font-family="Arial" font-size="12" fill="#2b2b2b">Countries</text>
+  <path d="M 412 340 L 490 339 L 491 371 L 411 372 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="420" y="361" font-family="Arial" font-size="11" fill="#2b2b2b">100%</text>
+  <path d="M 477 351 A 6 6 0 1 0 479 360 M 477 351 l 5 -2 M 477 351 l 0 5" fill="none" stroke="#2b2b2b" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 500 340 L 538 339 L 539 371 L 499 372 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 508 348 L 530 348 L 521 359 L 521 367 L 516 369 L 516 359 Z" fill="none" stroke="#2b2b2b" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- rough continents with hatching -->
+  <path d="M 226 424 q -16 12 -12 28 q 3 14 18 16 q -4 12 6 18 q 10 6 22 0 q 8 -4 10 -14 q 10 -2 12 -12 q 3 -12 -8 -18 q 2 -12 -10 -16 q -20 -8 -38 -2 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 224 442 l 13 -11 M 232 458 l 19 -16 M 244 472 l 17 -15 M 256 480 l 12 -11" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M 268 500 q -12 8 -10 22 q 2 12 12 18 q 2 14 12 22 q 6 -10 8 -24 q 8 -8 6 -22 q -2 -12 -12 -16 q -8 -4 -16 0 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 264 516 l 12 -10 M 268 534 l 16 -14 M 276 550 l 12 -11" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M 348 424 q -10 6 -8 16 q 2 10 12 10 q 10 2 16 -6 q 6 -8 0 -14 q -8 -8 -20 -6 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 346 438 l 10 -9 M 354 446 l 10 -9" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M 344 462 q -10 12 -6 26 q 4 12 14 18 q 4 12 14 18 q 8 -8 10 -22 q 10 -10 6 -24 q -4 -14 -16 -18 q -12 -4 -22 2 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 342 478 l 14 -12 M 348 496 l 20 -17 M 358 512 l 14 -13" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M 404 420 q -14 10 -10 24 q 4 12 18 14 q 2 14 16 16 q 14 4 26 -4 q 14 2 22 -8 q 8 -10 2 -22 q 10 -10 0 -18 q -12 -10 -28 -6 q -12 -8 -26 -4 q -12 2 -20 8 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 402 440 l 15 -13 M 414 456 l 21 -18 M 432 466 l 20 -18 M 452 462 l 16 -14 M 462 448 l 12 -11" fill="none" stroke="#888" stroke-width="1"/>
+  <path d="M 470 540 q -10 8 -6 18 q 4 10 16 10 q 12 2 20 -6 q 6 -8 0 -16 q -12 -10 -30 -6 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <path d="M 470 556 l 12 -10 M 482 562 l 12 -11" fill="none" stroke="#888" stroke-width="1"/>
+
+  <!-- flag callouts -->
+  <path d="M 234 416 L 288 415 Q 292 416 292 420 L 293 458 Q 292 462 288 461 L 234 462 Q 228 461 229 457 L 228 420 Q 228 416 234 416 Z" fill="white" stroke="#2b2b2b" stroke-width="2"/>
+  <use xlink:href="#flag" x="248" y="422"/>
+  <text x="261" y="454" font-family="Arial" font-size="10" font-weight="bold" fill="#2b2b2b" text-anchor="middle">61.5%</text>
+  <path d="M 260 462 L 256 474" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="256" cy="476" r="2" fill="#2b2b2b"/>
+  <path d="M 346 396 L 398 395 Q 402 396 402 400 L 403 438 Q 402 442 398 441 L 346 442 Q 340 441 341 437 L 340 400 Q 340 396 346 396 Z" fill="white" stroke="#2b2b2b" stroke-width="2"/>
+  <use xlink:href="#flag" x="358" y="402"/>
+  <path d="M 354 430 q 5 -4 10 0 t 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 372 442 L 366 456" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="365" cy="458" r="2" fill="#2b2b2b"/>
+  <path d="M 456 508 L 508 507 Q 512 508 512 512 L 513 550 Q 512 554 508 553 L 456 554 Q 450 553 451 549 L 450 512 Q 450 508 456 508 Z" fill="white" stroke="#2b2b2b" stroke-width="2"/>
+  <use xlink:href="#flag" x="468" y="514"/>
+  <path d="M 464 542 q 5 -4 10 0 t 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 481 554 L 485 562" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <circle cx="486" cy="564" r="2" fill="#2b2b2b"/>
+
+  <!-- board card -->
+  <path d="M 182 656 L 538 654 Q 548 655 548 666 L 549 852 Q 548 864 537 863 L 182 864 Q 172 863 173 852 L 172 666 Q 172 656 182 656 Z" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+  <text x="268" y="684" font-family="Arial" font-size="13" font-weight="bold" fill="#2b2b2b" text-anchor="middle">Destination</text>
+  <text x="452" y="684" font-family="Arial" font-size="13" fill="#888" text-anchor="middle">Institution</text>
+  <path d="M 174 696 q 62 3 124 0 t 124 0 t 124 0" fill="none" stroke="#888" stroke-width="1.5"/>
+  <path d="M 176 694 q 90 4 184 1" fill="none" stroke="#2b2b2b" stroke-width="3" stroke-linecap="round"/>
+  <text x="188" y="718" font-family="Arial" font-size="10" fill="#2b2b2b">#</text>
+  <text x="208" y="718" font-family="Arial" font-size="10" letter-spacing="1" fill="#2b2b2b">DESTINATION</text>
+  <text x="414" y="718" font-family="Arial" font-size="10" letter-spacing="1" fill="#2b2b2b">STAY</text>
+  <text x="462" y="718" font-family="Arial" font-size="10" letter-spacing="1" fill="#2b2b2b">NO RETURN</text>
+  <path d="M 174 726 q 93 3 186 0 t 186 0" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+
+  <!-- row 1 -->
+  <text x="190" y="755" font-family="Arial" font-size="12" fill="#2b2b2b">1</text>
+  <use xlink:href="#flag" x="206" y="742"/>
+  <path d="M 238 746 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 238 760 q 5 -4 10 0 t 10 0 t 10 0 t 10 0" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 408 752 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <text x="496" y="756" font-family="Arial" font-size="11" font-weight="bold" fill="#2b2b2b" text-anchor="middle">78.5%</text>
+  <path d="M 174 774 q 93 3 186 0 t 186 0" fill="none" stroke="#888" stroke-width="1"/>
+
+  <!-- row 2 -->
+  <text x="190" y="799" font-family="Arial" font-size="12" fill="#2b2b2b">2</text>
+  <use xlink:href="#flag" x="206" y="786"/>
+  <path d="M 238 790 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 238 804 q 5 -4 10 0 t 10 0 t 10 0 t 10 0" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 408 796 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 476 796 q 5 -4 10 0 t 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 174 818 q 93 3 186 0 t 186 0" fill="none" stroke="#888" stroke-width="1"/>
+
+  <!-- row 3 -->
+  <text x="190" y="843" font-family="Arial" font-size="12" fill="#2b2b2b">3</text>
+  <use xlink:href="#flag" x="206" y="830"/>
+  <path d="M 238 834 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 238 848 q 5 -4 10 0 t 10 0 t 10 0 t 10 0" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 408 840 q 5 -4 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 476 840 q 5 -4 10 0 t 10 0 t 10 0" fill="none" stroke="#2b2b2b" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- annotation: shared filter state -->
+  <text x="572" y="250" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">map and board</text>
+  <text x="572" y="270" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">always share</text>
+  <text x="572" y="290" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">filter state</text>
+  <path d="M 592 300 Q 574 302 556 290" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <path d="M 556 290 l 9 -3 M 556 290 l 8 5" fill="none" stroke="#2b2b2b" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 592 306 Q 590 380 558 416" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <path d="M 558 416 l 9 -6 M 558 416 l 10 2" fill="none" stroke="#2b2b2b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- annotation: single column / thumb reach -->
+  <text x="8" y="560" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">single column,</text>
+  <text x="8" y="580" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">no document scroll,</text>
+  <text x="8" y="600" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">everything reachable</text>
+  <text x="8" y="620" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">by thumb</text>
+  <path d="M 70 630 Q 100 662 154 660" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <path d="M 154 660 l -9 -5 M 154 660 l -10 4" fill="none" stroke="#2b2b2b" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- annotation: columns drop before rows -->
+  <text x="570" y="712" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">columns drop</text>
+  <text x="570" y="732" font-family="Segoe Print, cursive" font-size="13" fill="#2b2b2b">before rows</text>
+  <path d="M 590 742 Q 566 752 553 726" fill="none" stroke="#2b2b2b" stroke-width="1.5"/>
+  <path d="M 553 726 l 2 10 M 553 726 l 9 4" fill="none" stroke="#2b2b2b" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

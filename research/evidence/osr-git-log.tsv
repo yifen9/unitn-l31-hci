@@ -1,0 +1,56 @@
+2026-06-24	Default landing route to /mobility
+2026-06-24	Ranking: keep column filters reachable after columns drop (filter bar)
+2026-06-24	Ranking/mobility visuals v3: drop sort arrows, city-before-country, squeeze institution, compress mobility pager
+2026-06-24	Ranking visuals v2: centered two-row pager, left cell stacking, reorder compression, restore Venues nav
+2026-06-24	Ranking visual polish: header brand-text drop, 3-stage pager, column fit, cell stacking
+2026-06-24	Venue ranking: deliver via 2% hash sample (full extraction was intractable)
+2026-06-23	Monitor: touch-size the scale/bucket/dimension controls on coarse pointer
+2026-06-23	Fix overlay/panel occlusion on detail flow and mobile about
+2026-06-23	Ranking pager: fix occlusion at every width (flex-wrap, no overlap)
+2026-06-23	Monitor: aggregation dashboard (overview, time-series, distributions)
+2026-06-23	Header: re-measure fit on window resize too
+2026-06-23	Header: measure fit and collapse to drawer dynamically (no magic breakpoint)
+2026-06-23	Fix API detection on non-default port, list layout, hide venues, mobile drawer
+2026-06-18	Pinch-zoom for the flow network and mobility map
+2026-06-18	Tokenize the color palette (remove hardcoded hex)
+2026-06-18	Dedup the SQL stages shared by institution and venue pipelines
+2026-06-18	Install pyarrow in the runtime image
+2026-06-18	Activity tracking: fine-grained capture, ingest, and info monitor
+2026-06-18	Small-screen + touch: viewport-fit every page, no document scroll
+2026-06-18	Refactor: split oversized modules and prune dead code
+2026-06-17	Support venue metadata and logos
+2026-06-17	Add OpenAlex venue sample pipeline
+2026-06-16	Stream OpenAlex reference mapping joins
+2026-06-16	Index OpenAlex mapping joins
+2026-06-16	Use batch-local OpenAlex target mapping
+2026-06-16	Precompute OpenAlex referenced venue map
+2026-06-16	Batch OpenAlex mapped reference joins
+2026-06-16	Speed up OpenAlex JSON extraction
+2026-06-16	Make OpenAlex venue extraction resumable
+2026-06-16	Fix mobility site export validation helper
+2026-06-16	Generalize OSR pipeline contracts
+2026-06-16	Refactor OSR domains for venue pipeline
+2026-06-07	Use quality-adjusted arrival mass for mobility R tiers
+2026-06-07	Fix mobility R tiers to nationality scope
+2026-06-07	Refine mobility board routing and layout
+2026-06-07	Add mobility institution board filters
+2026-06-07	Fix mobility page state and map rendering
+2026-06-07	Fix mobility metric smoothing and trend windows
+2026-06-07	Rework mobility arrivals and yearly smoothing
+2026-06-07	Update site dev metadata and mobility trace handling
+2026-06-07	Implement mobility drilldown and site polish
+2026-06-07	fix: align mobility and info ui details
+2026-06-07	fix: refine info and mobility views
+2026-06-04	feat: sync ranking view with url
+2026-06-04	fix: compact ranking view toolbar
+2026-06-04	feat: add saved ranking views
+2026-06-03	revert: restore primary ranking site
+2026-06-02	feat: update placement ranking to v3 lift
+2026-06-02	feat: test placement without self-flow
+2026-06-02	feat: update placement ranking to v2
+2026-06-02	feat: add placement and field ranking scopes
+2026-06-02	feat: polish OSR web platform and deployment
+2026-06-01	Fix OSR routing and dashboard interactions
+2026-05-31	Refine OSR screening and site routing
+2026-05-31	Build OSR v7 pipeline and site
+2026-05-31	Initial commit

@@ -1,0 +1,45 @@
+\section{Analysis of existing products and ideas generation}
+
+A prospective mover asks one question. Given my origin nationality, where do people like me actually go, do they stay, and do they return? I selected eight products covering the evidence types such a person can consult today and assessed each against that question. They fall into two families: six institution rankers and two sources of people-level evidence.
+
+\subsection{Institution rankers}
+
+QS ranks 1,504 institutions and THE 2,191 on composites dominated by reputation surveys (45\% and 33\% of the score), the rest bibliometrics and self-reported ratios. ARWU ranks purely on elite research output, fully auditable at the price of decades-lagged prestige and size bias. CSRankings re-ranks computer-science departments live from open data and code as the user toggles subfields. Nature Index reduces article counts in 178 elite venues to two metrics published beside explicit caveats. Scimago covers 10,824 institutions, including the government labs student-facing tables omit. All six present a league table with filters and drill-down and answer in seconds. Table~\ref{tab:benchmark} carries the detail.
+
+\subsection{People-level evidence}
+
+Two products hold evidence about people rather than institutions. LinkedIn's Alumni tool aggregates over a billion self-reported profiles into six facet columns per school (where alumni live, where they work, what they studied) and reaches, in three clicks, a real, contactable person, the one affordance no anonymised dataset can offer. 1point3acres, the largest overseas-Chinese applicant community, stores a decade of crowdsourced admissions, job offers with compensation, and visa timelines. A positioning calculator matches the user's own profile against historical admits, but free access is metered to three applicant backgrounds per day.
+
+\begin{table}[t]
+\centering
+\small
+\caption{The eight benchmarked products and OSR against the mobility-decision job.}
+\label{tab:benchmark}
+\begin{tabularx}{\linewidth}{l >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}p{0.17\linewidth} >{\raggedright\arraybackslash}X}
+\toprule
+Product & Data basis & Unit ranked & Answers the job \\
+\midrule
+QS WUR & Reputation surveys (45\%) + Scopus + institutional data & Institution & No \\
+THE WUR & Scopus + reputation survey (33\%) + self-reported & Institution & No \\
+ARWU & Prizes + bibliometrics & Institution & No \\
+CSRankings & DBLP papers $\times$ curated CS faculty & Department & No \\
+Nature Index & Article affiliations, 178 venues & Institution / country & No \\
+Scimago SIR & Scopus + patents + web metrics & Institution & No \\
+LinkedIn Alumni & 1.1B self-reported profiles & None (facet counts) & Partial: snapshot only, no origin conditioning \\
+1point3acres & Crowdsourced admits, offers, visa cases & None (datapoints) & Partial: unlinked anecdotes, one corridor \\
+OSR & ORCID career trajectories & Country / city / institution, per origin & Yes for researchers; partial otherwise \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Why both families fail the job}
+
+The rankers' failure is structural. All six measure institutions (their prestige, publications, prizes, or patents) and show one identical ordering to every visitor. None contains a single observed human trajectory, so the questions that dominate a relocation decision are out of scope by construction. Where internationalisation is measured at all, it is a stock ratio and captures no flow. Geography exists only as a filter. No ranker can compare countries or cities as destinations.
+
+The two people-level sources invert the failure. LinkedIn holds only snapshots. It shows current location alone, so stay, onward-move, and return rates cannot be derived. Its queries are school-centric, so ``where do Chinese CS students go'' is unaskable. And it exited mainland China in 2023, so the core cohort is both thin in the data and largely unable to reach the tool. 1point3acres holds cohort-matched fragments, but only as isolated events. Datapoints are never linked into per-person paths, corridor and self-selection bias make any computed rate uninterpretable, and the paywall meters the browsing of many cases that comparison requires.
+
+\subsection{The design space and the idea}
+
+The \textbf{design space} splits along two axes: (i) whether the data contains people's paths, and (ii) whether the output is conditioned on who is asking. The rankers sit at (no, no). LinkedIn and 1point3acres each reach (partially, partially) by different routes. The unoccupied cell is destinations ranked by \textbf{observed migration and retention}, conditioned on origin nationality, at country, city, and institution level. This is the idea OSR occupies~\cite{osr}: career trajectories linked from ORCID public data~\cite{orcid2025}, aggregated per origin nationality into three explainable metrics (Arrival, Stay, No return) plus a recursive tier, browsable free and without login. The known trade-offs are equally structural. The population is ORCID-registered researchers, so the answer is complete only for scholars, and anonymised aggregates surrender the contactable person LinkedIn ends at, which OSR must offset with transparency.
+
+Three interaction lessons carried over from the benchmarks. First, low-friction entry. QS and THE prove that one board, one filter, and instant drill-down return an answer in seconds, and 1point3acres shows the price of gating it. Second, methodology transparency. CSRankings' open pipeline, ARWU's auditable inputs, and Nature Index's pairing of a one-line metric with its caveats set the standard for OSR's tier and its methodology page. Third, cohort conditioning. 1point3acres demonstrates real demand for evidence about ``people like me,'' so OSR makes origin nationality its primary control instead of burying it in a filter.

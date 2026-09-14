@@ -1,0 +1,12 @@
+participant,task,success,assisted,time_s,errors,notes
+P01,T1,1,0,80,0,top-3 stay countries for CN named correctly (US/AU/JP); brief prototype-orientation help before task start
+P01,T2,1,0,45,0,named San Jose and South San Francisco; third city unreadable due to screen-share blur so participant took over clicking the prototype
+P01,T4,1,0,25,0,found methodology page and defined Stay as stayed/arrival unprompted
+P02,T1,1,0,110,0,set nationality CN and sorted by Stay unprompted; expected sortable columns; named US/AU/JP correctly; asked for point-of-use definitions of Stay and No return
+P02,T2,1,1,95,1,row confusion reading city list over blurry screen share; switched to own link on facilitator prompt; named San Jose and South San Francisco; could not pronounce the third city
+P02,T4,0,1,55,1,needed directional hint to find the info entry; paraphrased Stay as a time ratio instead of the stayed/arrival person ratio
+P03,T1,1,0,40,1,first instinct was clicking China on the map (dead click on 01); then found the nationality control and named US/AU/JP correctly; instruction-driven moderation (participant directs facilitator mouse)
+P03,T2,1,0,25,0,switched to city granularity and named San Jose plus two more including Charlottesville
+P03,T3,0,0,50,1,clicked the disabled Institution granularity segment first (dead click) then found the board tab and a tier badge; explained R1 as institutional influence rather than retention
+P03,T4,1,1,160,1,methodology entry judged not prominent ("不是很显眼"); found it after searching; located the stay rate definition after a scroll hint; comprehension shaky from formula alone
+P03,T5,1,0,50,1,looked in the board area first then correctly identified the header download icon; prototype lacks the export flow so completion = identifying the control

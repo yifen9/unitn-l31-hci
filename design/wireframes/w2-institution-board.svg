@@ -1,0 +1,272 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <pattern id="ht" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#888" stroke-width="1.1"/>
+    </pattern>
+    <marker id="ah" markerWidth="14" markerHeight="14" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M2,2 L10,6 L2,10" fill="none" stroke="#2b2b2b" stroke-width="1.8" stroke-linecap="round"/>
+    </marker>
+    <path id="sq30" d="M0,0 q5,-3 10,0 t10,0 t10,0" fill="none"/>
+    <path id="sq50" d="M0,0 q5,-3 10,0 t10,0 t10,0 t10,0 t10,0" fill="none"/>
+    <path id="sq80" d="M0,0 q5,-3 10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0" fill="none"/>
+    <path id="sq130" d="M0,0 q5,-3 10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0 t10,0" fill="none"/>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1000" fill="#ffffff"/>
+
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- outer app frame (jittered) -->
+    <path d="M42,32 L1338,29 L1341,958 L39,961 Z"/>
+    <path d="M40,948 L37,974" stroke-width="1.5"/>
+    <path d="M1326,29 L1352,27" stroke-width="1.5"/>
+
+    <!-- header -->
+    <path d="M42,104 Q690,108 1338,103"/>
+    <circle cx="92" cy="68" r="20"/>
+    <circle cx="86" cy="62" r="5" fill="#2b2b2b" stroke="none"/>
+
+    <!-- header buttons -->
+    <path d="M852,50 L998,48 L1000,88 L850,90 Z"/>
+    <path d="M864,80 L864,58 L876,58 L876,80 M868,63 h4 M868,69 h4 M868,75 h4" stroke-width="1.5"/>
+    <path d="M1012,49 L1114,48 L1116,89 L1010,90 Z"/>
+    <path d="M1022,80 V62 M1028,80 V56 M1034,80 V66" stroke-width="1.5"/>
+    <path d="M1128,48 L1242,47 L1244,90 L1126,91 Z"/>
+    <path d="M1132,52 L1238,51 L1240,86 L1130,87 Z" stroke-width="1.2"/>
+    <circle cx="1146" cy="64" r="5" stroke-width="1.5"/>
+    <path d="M1146,69 L1146,78" stroke-width="1.5"/>
+    <rect x="1256" y="48" width="38" height="42" rx="6"/>
+    <path d="M1275,58 V74 M1269,68 L1275,75 L1281,68 M1267,80 H1283" stroke-width="1.5"/>
+    <rect x="1300" y="48" width="38" height="42" rx="6"/>
+    <circle cx="1319" cy="69" r="11" stroke-width="1.5"/>
+
+    <!-- filter bar container -->
+    <path d="M62,116 L1316,114 Q1325,114 1325,124 L1327,167 Q1327,177 1316,177 L66,179 Q57,179 58,168 L59,125 Q59,117 62,116 Z"/>
+
+    <rect x="108" y="128" width="78" height="38" rx="4"/>
+    <use xlink:href="#sq30" x="118" y="150"/>
+    <path d="M164,144 l7,7 l7,-7" stroke-width="1.5"/>
+    <rect x="246" y="128" width="58" height="38" rx="4"/>
+    <use xlink:href="#sq30" x="252" y="150"/>
+    <path d="M286,145 l5,5 l5,-5" stroke-width="1.5"/>
+    <rect x="362" y="128" width="55" height="38" rx="4"/>
+    <use xlink:href="#sq30" x="368" y="150"/>
+    <path d="M400,145 l5,5 l5,-5" stroke-width="1.5"/>
+
+    <rect x="448" y="128" width="32" height="38" rx="4"/>
+    <rect x="486" y="128" width="28" height="38" rx="4"/>
+    <path d="M522,129 L644,127 L646,166 L521,167 Z"/>
+    <use xlink:href="#sq30" x="588" y="150"/>
+    <rect x="654" y="128" width="28" height="38" rx="4"/>
+    <rect x="690" y="128" width="32" height="38" rx="4"/>
+
+    <rect x="834" y="128" width="72" height="38" rx="4"/>
+    <path d="M882,145 l5,5 l5,-5" stroke-width="1.5"/>
+
+    <!-- segmented Country | City | Institution -->
+    <path d="M937,130 L1203,128 L1205,165 L935,167 Z"/>
+    <path d="M1022,129 L1023,166" stroke-width="1.5"/>
+    <path d="M1082,129 L1083,166" stroke-width="1.5"/>
+    <path d="M944,159 L1014,158" stroke-width="3"/>
+
+    <rect x="1225" y="128" width="40" height="38" rx="6"/>
+    <path d="M1250,139 a8,8 0 1 0 4,10" stroke-width="1.5"/>
+    <path d="M1250,139 l7,-3 m-7,3 l2,7" stroke-width="1.5"/>
+
+    <!-- ================= map panel ================= -->
+    <path d="M57,196 Q430,191 808,193 L811,943 Q430,948 54,946 Z"/>
+    <path d="M54,936 L52,952" stroke-width="1.5"/>
+
+    <rect x="70" y="208" width="118" height="32" rx="16"/>
+    <circle cx="88" cy="224" r="8" stroke-width="1.5"/>
+    <path d="M80,224 L96,224 M88,216 q6,8 0,16 M88,216 q-6,8 0,16" stroke-width="1"/>
+    <rect x="688" y="208" width="76" height="32" rx="6"/>
+    <path d="M750,216 a7,7 0 1 0 3,9" stroke-width="1.3"/>
+    <rect x="772" y="208" width="32" height="32" rx="6"/>
+    <path d="M779,216 L797,216 L790,225 L790,236 L786,232 L786,225 Z" stroke-width="1.5"/>
+
+    <!-- continents, rough -->
+    <path d="M300,285 L340,275 L360,290 L340,305 L305,300 Z"/>
+    <path d="M110,330 L150,305 L215,295 L280,310 L300,345 L275,365 L285,395 L255,430 L235,485 L215,500 L205,470 L195,445 L165,415 L130,380 Z"/>
+    <path d="M165,375 L270,368 L280,395 L255,425 L200,420 L170,400 Z" fill="url(#ht)"/>
+    <path d="M255,505 L295,495 L325,520 L320,570 L300,630 L280,690 L268,730 L258,690 L248,620 L242,560 Z"/>
+    <path d="M425,315 L455,300 L465,275 L478,268 L482,290 L490,305 L500,325 L480,345 L450,355 L430,340 Z" fill="url(#ht)"/>
+    <path d="M425,375 L470,365 L510,380 L515,420 L495,470 L470,530 L450,565 L432,530 L420,470 L415,420 Z"/>
+    <path d="M505,300 L560,278 L645,272 L715,292 L745,330 L725,372 L690,392 L655,378 L640,405 L620,412 L605,455 L590,418 L565,430 L548,398 L522,368 L505,338 Z"/>
+    <path d="M640,310 L700,315 L710,345 L680,365 L648,352 Z" fill="url(#ht)"/>
+    <path d="M655,600 L700,590 L735,605 L740,640 L715,665 L675,668 L652,640 Z" fill="url(#ht)"/>
+    <path d="M735,360 L745,340 L752,320" stroke-width="1.5"/>
+    <path d="M755,690 L765,672 M760,700 L772,684" stroke-width="1.5"/>
+
+    <!-- map callouts -->
+    <rect x="168" y="332" width="62" height="28" rx="4" fill="#ffffff"/>
+    <use xlink:href="#sq50" x="174" y="349" stroke-width="1.5"/>
+    <path d="M199,360 L215,385" stroke-width="1.3"/>
+    <rect x="648" y="296" width="62" height="28" rx="4" fill="#ffffff"/>
+    <path d="M672,324 L668,340" stroke-width="1.3"/>
+    <rect x="688" y="552" width="62" height="28" rx="4" fill="#ffffff"/>
+    <use xlink:href="#sq50" x="694" y="569" stroke-width="1.5"/>
+    <path d="M712,580 L705,600" stroke-width="1.3"/>
+
+    <!-- ================= right panel: institution board ================= -->
+    <path d="M831,194 L1323,197 L1326,944 L828,941 Z"/>
+    <path d="M1310,197 L1336,194" stroke-width="1.5"/>
+    <path d="M1077,205 L1078,248" stroke="#888" stroke-width="1.3"/>
+    <path d="M832,253 L1324,251" stroke="#888" stroke-width="1.3"/>
+    <path d="M1136,248 L1266,246" stroke-width="3"/>
+
+    <!-- tier chips + search -->
+    <rect x="845" y="264" width="38" height="26" rx="13"/>
+    <rect x="891" y="264" width="38" height="26" rx="13"/>
+    <rect x="937" y="264" width="38" height="26" rx="13"/>
+    <rect x="983" y="264" width="38" height="26" rx="13"/>
+    <rect x="1030" y="262" width="282" height="30" rx="15"/>
+    <circle cx="1052" cy="276" r="7" stroke-width="1.5"/>
+    <path d="M1057,281 L1065,289" stroke-width="1.5"/>
+    <use xlink:href="#sq80" x="1078" y="279" stroke="#888" stroke-width="1.5"/>
+
+    <!-- column header divider -->
+    <path d="M846,332 L1314,330" stroke-width="1.5"/>
+    <rect x="1298" y="310" width="12" height="12" rx="2" stroke-width="1.5"/>
+    <path d="M1300,316 l3,4 l6,-8" stroke-width="1.5"/>
+
+    <!-- rows -->
+    <path d="M846,420 Q1080,423 1314,419" stroke="#888" stroke-width="1.2"/>
+    <path d="M846,506 Q1080,503 1314,507" stroke="#888" stroke-width="1.2"/>
+    <path d="M846,592 Q1080,595 1314,591" stroke="#888" stroke-width="1.2"/>
+    <path d="M846,678 Q1080,675 1314,679" stroke="#888" stroke-width="1.2"/>
+    <path d="M846,764 Q1080,767 1314,763" stroke="#888" stroke-width="1.2"/>
+    <path d="M846,850 Q1080,847 1314,851" stroke="#888" stroke-width="1.2"/>
+
+    <!-- row 1 -->
+    <use xlink:href="#sq130" x="884" y="371"/>
+    <use xlink:href="#sq80" x="884" y="393" stroke="#888" stroke-width="1.5"/>
+    <rect x="1036" y="365" width="38" height="24" rx="5"/>
+    <use xlink:href="#sq50" x="1158" y="379"/>
+    <use xlink:href="#sq50" x="1240" y="379"/>
+    <!-- row 2 -->
+    <use xlink:href="#sq130" x="884" y="457"/>
+    <use xlink:href="#sq80" x="884" y="479" stroke="#888" stroke-width="1.5"/>
+    <rect x="1036" y="451" width="38" height="24" rx="5"/>
+    <use xlink:href="#sq50" x="1088" y="465"/>
+    <use xlink:href="#sq50" x="1158" y="465"/>
+    <use xlink:href="#sq50" x="1240" y="465"/>
+    <!-- row 3 -->
+    <use xlink:href="#sq130" x="884" y="543"/>
+    <use xlink:href="#sq80" x="884" y="565" stroke="#888" stroke-width="1.5"/>
+    <rect x="1036" y="537" width="38" height="24" rx="5"/>
+    <use xlink:href="#sq50" x="1088" y="551"/>
+    <use xlink:href="#sq50" x="1158" y="551"/>
+    <use xlink:href="#sq50" x="1240" y="551"/>
+    <!-- row 4 -->
+    <use xlink:href="#sq130" x="884" y="629"/>
+    <use xlink:href="#sq80" x="884" y="651" stroke="#888" stroke-width="1.5"/>
+    <rect x="1036" y="623" width="38" height="24" rx="5"/>
+    <use xlink:href="#sq50" x="1088" y="637"/>
+    <use xlink:href="#sq50" x="1158" y="637"/>
+    <use xlink:href="#sq50" x="1240" y="637"/>
+    <!-- row 5 -->
+    <use xlink:href="#sq130" x="884" y="715"/>
+    <use xlink:href="#sq80" x="884" y="737" stroke="#888" stroke-width="1.5"/>
+    <rect x="1036" y="709" width="38" height="24" rx="5"/>
+    <use xlink:href="#sq50" x="1088" y="723"/>
+    <use xlink:href="#sq50" x="1158" y="723"/>
+    <use xlink:href="#sq50" x="1240" y="723"/>
+    <!-- row 6 -->
+    <use xlink:href="#sq130" x="884" y="801"/>
+    <use xlink:href="#sq80" x="884" y="823" stroke="#888" stroke-width="1.5"/>
+    <rect x="1036" y="795" width="38" height="24" rx="5"/>
+    <use xlink:href="#sq50" x="1088" y="809"/>
+    <use xlink:href="#sq50" x="1158" y="809"/>
+    <use xlink:href="#sq50" x="1240" y="809"/>
+    <!-- row 7 -->
+    <use xlink:href="#sq130" x="884" y="887"/>
+    <use xlink:href="#sq80" x="884" y="909" stroke="#888" stroke-width="1.5"/>
+    <rect x="1036" y="881" width="38" height="24" rx="5"/>
+    <use xlink:href="#sq50" x="1088" y="895"/>
+    <use xlink:href="#sq50" x="1158" y="895"/>
+    <use xlink:href="#sq50" x="1240" y="895"/>
+  </g>
+
+  <!-- =============== UI text (Arial) =============== -->
+  <g font-family="Arial" fill="#2b2b2b">
+    <text x="118" y="80" font-family="Segoe Print, cursive" font-size="26">SR</text>
+    <text x="164" y="77" font-family="Segoe Print, cursive" font-size="21">Open Scholar Ranking</text>
+    <text x="884" y="75" font-size="14">Institutions</text>
+    <text x="1044" y="75" font-size="14">Venues</text>
+    <text x="1158" y="75" font-size="14">Mobility</text>
+    <text x="1319" y="75" font-family="Segoe Print, cursive" font-size="14" text-anchor="middle">i</text>
+
+    <text x="66" y="152" font-size="12">YEAR</text>
+    <text x="200" y="152" font-size="12">ROWS</text>
+    <text x="318" y="152" font-size="12">JUMP</text>
+    <text x="464" y="153" font-size="14" text-anchor="middle">&#171;</text>
+    <text x="500" y="153" font-size="14" text-anchor="middle">&#8249;</text>
+    <text x="532" y="152" font-size="12">PAGE</text>
+    <text x="668" y="153" font-size="14" text-anchor="middle">&#8250;</text>
+    <text x="706" y="153" font-size="14" text-anchor="middle">&#187;</text>
+    <text x="742" y="152" font-size="12">NATIONALITY</text>
+    <text x="846" y="152" font-size="13">All</text>
+    <text x="979" y="152" font-size="13" text-anchor="middle">Country</text>
+    <text x="1052" y="152" font-size="13" text-anchor="middle" fill="#888">City</text>
+    <text x="1144" y="152" font-size="13" text-anchor="middle">Institution</text>
+
+    <text x="102" y="229" font-size="13">Countries</text>
+    <text x="704" y="229" font-size="12">100%</text>
+    <text x="679" y="315" font-size="13" text-anchor="middle">49%</text>
+
+    <text x="953" y="232" font-size="15" text-anchor="middle" fill="#888">Destination</text>
+    <text x="1200" y="232" font-size="15" text-anchor="middle">Institution</text>
+
+    <text x="864" y="282" font-size="12" text-anchor="middle">R1</text>
+    <text x="910" y="282" font-size="12" text-anchor="middle">R2</text>
+    <text x="956" y="282" font-size="12" text-anchor="middle">R3</text>
+    <text x="1002" y="282" font-size="12" text-anchor="middle">R4</text>
+
+    <text x="856" y="322" font-size="11">#</text>
+    <text x="884" y="322" font-size="11">INSTITUTION</text>
+    <text x="1038" y="322" font-size="11">TIER</text>
+    <text x="1088" y="322" font-size="11">STAY</text>
+    <text x="1152" y="322" font-size="11">NO RETURN</text>
+    <text x="1240" y="322" font-size="11">ARRIVAL</text>
+
+    <text x="860" y="383" font-size="14" text-anchor="middle">1</text>
+    <text x="860" y="469" font-size="14" text-anchor="middle">2</text>
+    <text x="860" y="555" font-size="14" text-anchor="middle">3</text>
+    <text x="860" y="641" font-size="14" text-anchor="middle">4</text>
+    <text x="860" y="727" font-size="14" text-anchor="middle">5</text>
+    <text x="860" y="813" font-size="14" text-anchor="middle">6</text>
+    <text x="860" y="899" font-size="14" text-anchor="middle">7</text>
+
+    <text x="1055" y="382" font-size="12" text-anchor="middle">R1</text>
+    <text x="1055" y="468" font-size="12" text-anchor="middle">R1</text>
+    <text x="1055" y="554" font-size="12" text-anchor="middle">R2</text>
+    <text x="1055" y="640" font-size="12" text-anchor="middle">R2</text>
+    <text x="1055" y="726" font-size="12" text-anchor="middle">R3</text>
+    <text x="1055" y="812" font-size="12" text-anchor="middle">R3</text>
+    <text x="1055" y="898" font-size="12" text-anchor="middle">R4</text>
+
+    <text x="1088" y="382" font-size="13">62%</text>
+  </g>
+
+  <!-- =============== margin annotations (Segoe Print) =============== -->
+  <g font-family="Segoe Print, cursive" font-size="17" fill="#2b2b2b">
+    <text x="1352" y="62">same shell as W1 &#8212;</text>
+    <text x="1352" y="86">only the right panel</text>
+    <text x="1352" y="110">swaps to institution rows</text>
+
+    <text x="1352" y="275">chips + search filter</text>
+    <text x="1352" y="299">the table live</text>
+
+    <text x="1352" y="390">tier = recursive tertiles</text>
+    <text x="1352" y="414">of (stay + no return) / 2</text>
+
+    <text x="390" y="990">map and board always share filter state</text>
+  </g>
+  <g stroke="#2b2b2b" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <path d="M1430,122 Q1355,182 1240,216" marker-end="url(#ah)"/>
+    <path d="M1348,282 Q1180,244 1014,261" marker-end="url(#ah)"/>
+    <path d="M1348,420 Q1200,448 1086,464" marker-end="url(#ah)"/>
+    <path d="M755,980 Q818,938 819,725" marker-end="url(#ah)"/>
+  </g>
+</svg>
